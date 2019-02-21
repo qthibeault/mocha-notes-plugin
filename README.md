@@ -33,4 +33,6 @@ describe('Suite', function() {
 
 How it Works
 ------------
-This module monkey-patches the `Test` class to expose a field called `notes`.
+This module monkey-patches the `Test` class to expose a method called `note`. This method appends key value pairs
+to a private object calles `notes`. The custom reporter packaged with this plugin adapts the JSON reporter to display
+the notes in the output. 
