@@ -5,7 +5,8 @@ A plugin that allows you to save notes for each Test which are reported with the
 Installation
 ------------
 `npm install --save-dev mocha mocha-notes-plugin`
-_This library required Mocha 5.0.0 or greater_
+
+_This library is tested to work with Mocha 6.0.0_
 
 ```json
 {
