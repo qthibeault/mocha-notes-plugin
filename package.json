@@ -4,12 +4,32 @@
   "description": "Plugin that monkey-patches the Test object to provide an interface for saving notes during a test",
   "main": "./lib/patch.js",
   "keywords": [
-      "mocha",
-      "notes"
+    "mocha",
+    "notes"
   ],
   "author": "Quinn Thibeault <quinn.thibeault96@gmail.com>",
   "license": "ISC",
   "peerDependencies": {
-      "mocha": "^5.0.0"
-  }
+    "mocha": "^5.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinn-thibeault/mocha-notes-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quinn-thibeault/mocha-notes-plugin/issues"
+  },
+  "homepage": "https://github.com/quinn-thibeault/mocha-notes-plugin#readme"
 }
