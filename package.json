@@ -1,0 +1,15 @@
+{
+  "name": "mocha-notes-plugin",
+  "version": "1.0.0",
+  "description": "Plugin that monkey-patches the Test object to provide an interface for saving notes during a test",
+  "main": "./lib/patch.js",
+  "keywords": [
+      "mocha",
+      "notes"
+  ],
+  "author": "Quinn Thibeault <quinn.thibeault96@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+      "mocha": "^5.0.0"
+  }
+}
