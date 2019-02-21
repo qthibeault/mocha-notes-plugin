@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Plugin that monkey-patches the Test object to provide an interface for saving notes during a test",
   "main": "./lib/patch.js",
-  "scripts": {
-    "lint": "eslint"
-  },
   "keywords": [
     "mocha",
     "notes"
@@ -18,20 +15,16 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {
-    "chai": "^4.2.0"
-  },
   "devDependencies": {
     "eslint": "^5.14.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "mocha": "^6.0.0"
+    "eslint-plugin-standard": "^4.0.0"
   },
   "scripts": {
-    "test": "mocha"
+    "lint": "eslint lib"
   },
   "repository": {
     "type": "git",
